@@ -32,7 +32,7 @@ Prototype for ISLE using only wodby images e.g. Drupal, PHP, Solr and Mariadb
   * Enter the `Site email address, Username, password, email address, default country and default time zone` settings of your choice.
   * Click the blue `Save and continue` button
 
-* `chmod +x scripts/install-solr-drupal-modules.sh && ./install-solr-drupal-modules.sh"`
+* `chmod +x scripts/install-solr-drupal-modules.sh && scripts/./install-solr-drupal-modules.sh`
 
 
 ## Ignore and/or don't attempt to use
