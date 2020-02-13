@@ -14,7 +14,7 @@ Prototype for ISLE using only wodby images e.g. Drupal, PHP, Solr and Mariadb
 
 * `docker-compose up -d`
 
-* `docker exec -it my_drupal8_project_php -c "composer install"`
+* `docker exec -it my_drupal8_project_php bash -c "composer install"`
 
 * Access site at: http://drupal.docker.localhost:8000
 
