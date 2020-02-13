@@ -34,6 +34,10 @@ Prototype for ISLE using only wodby images e.g. Drupal, PHP, Solr and Mariadb
 
 * `chmod +x scripts/install-solr-drupal-modules.sh && scripts/./install-solr-drupal-modules.sh`
 
+* Navigate to `drupal.docker.localhost:8000/admin/config/search/search-api`
+  * Click Edit within the first line below (most likely red)
+  * Change `Solr host` to `solr` and click save at bottom
+
 
 ## Ignore and/or don't attempt to use
 
