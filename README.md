@@ -7,9 +7,6 @@ Prototype for ISLE using only wodby images e.g. Drupal, PHP, Solr and Mariadb
 * `cp -Rv composer/* codebase/`
   * _this will be the composer.json & .lock files_
 
-* `cp scripts/install-drupal-modules.sh codebase/`
-  * _to be used later to install Drupal Solr search modules_
-
 * Add this to `/etc/hosts`
   * `127.0.0.1 drupal.docker.localhost portainer.drupal.docker.localhost`
 
@@ -35,7 +32,7 @@ Prototype for ISLE using only wodby images e.g. Drupal, PHP, Solr and Mariadb
   * Enter the `Site email address, Username, password, email address, default country and default time zone` settings of your choice.
   * Click the blue `Save and continue` button
 
-* `docker exec -it my_drupal_project_php bash -c "chmod +x install-solr-drupal-modules.sh && ./install-solr-drupal-modules.sh"`
+* `chmod +x scripts/install-solr-drupal-modules.sh && ./install-solr-drupal-modules.sh"`
 
 
 ## Ignore and/or don't attempt to use
